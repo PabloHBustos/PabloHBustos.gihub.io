@@ -1,0 +1,135 @@
+body {
+    background-color: silver;
+}
+
+#cuerpo {
+    width: 85%;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 100px 0px 100px 0px;
+}
+
+#menu {
+    float:right;
+    /*width: 10%;*/
+    min-width: 150px;
+    height: 150px;
+    background-color: rgb(109, 106, 106);
+    margin-top: 65px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+#foto {
+    margin-bottom: 40px;
+    width: 90%;
+    height: 175px;
+    background-color: rgb(53, 202, 50);
+    border-radius: 80px 0px 80px 0px;
+}
+
+.seccion {
+    margin-top: 10px;
+    padding-top: 10px;
+    /* Borde de seccion para armar el Lay-out*/
+    /*
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    */
+      
+}
+.titulo-seccion {
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 100px;
+    height: 24px;
+    border-width: 2px;
+    background-color: rgb(109, 106, 106);
+    border-radius: 0px 5px;
+    padding: 3px;
+    
+}
+.contenido-seccion {
+    margin-top: 22px;
+    margin-left: 125px;
+    margin-right: 50px;
+    /*height: 25px;*/
+    border-width: 2px;
+    border-color:rgb(109, 106, 106);
+    border-style: solid;
+    border-radius: 15px 0px;
+    padding: 20px;
+    
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    display: inline;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.parrafo-seccion {
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+nav ul li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 0px;
+    margin-top: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+#foto-perfil {
+    float: left;
+    border-radius: 80px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#datos {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold; 
+    color: rgb(72, 71, 71);  
+}
+
+.pie {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a[href="#"] {
+    color: rgb(72, 71, 71);
+    font-weight: bold;
+  }
